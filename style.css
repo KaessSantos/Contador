@@ -47,3 +47,53 @@ footer{
     font-size: 1rem;
     font-weight: bold;
 }
+
+@media screen and (min-width: 350px) {
+    section{
+        background-color: wheat;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        height: auto;
+        width: 60%;
+        padding: 15px;
+        line-height: 2rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 1px  rgba(0, 0, 0, 0.397);
+    }
+    
+    #txti, #txtf, #txtp{
+        border:.5px solid black;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    input[type="button"]{
+        padding: 5px 30px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border:1px solid black;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        color: black;
+        font-weight: bold;
+        transition: ease 1s;
+
+    }
+
+    input[type="button"]:hover{
+        background-color: black;
+        color: white;
+        transition-duration: 1s;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+    #res{
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.61);
+        color: white;
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
